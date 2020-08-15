@@ -1,13 +1,14 @@
 # Endomondo Export
 
-A simple app to download all workouts from the Endomondo in GPX format.
+A simple app to download all workouts from the Endomondo in a GPX format.
 
 ## Usage
-Download the .zip and extract it.
+Download the **Endomondo.Export.exe**
 
-Run Powershell or Command Prompt and go to directory where files have been extracted.
+Open Powershell or Command Prompt in a directory where **Endomondo.Export.exe**
+lives.
 
-Use `.\Endomondo.Export.exe email password --limit X --path Y`
+Run command `.\Endomondo.Export.exe email password --limit X --path Y`
 
 where:
 - email - user email in Endomondo
