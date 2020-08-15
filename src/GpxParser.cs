@@ -11,7 +11,7 @@ namespace Endomondo.Export
             var result = new Gpx
             {
                 version = "1.1",
-                creator = "Tomasz Wnuk",
+                creator = "https://github.com/tmk-w/Endomondo.Export",
             };
 
             var lines = activity.Split('\n');
